@@ -18,4 +18,4 @@ RUN mix do compile
 
 EXPOSE 8080
 
-ENTRYPOINT ["mix", "phoenix.start"]
+ENTRYPOINT ["mix", "phoenix.server"]
